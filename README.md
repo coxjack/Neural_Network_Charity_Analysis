@@ -12,7 +12,7 @@ The purpose of this challenge is to take deep-learning neural networks and analy
 - The column `IS_SUCCESSFUL` contains binary data referring to whether or not the donation was used effectively and this is the target for our model.
 
 ### Compiling, Training, and Evaluating the Model
-- The model is made up of two hidden layers with 80 and 30 neurons both of these layers were given the activation function 'ReLU'.
+- The model is made up of two hidden layers with 80 and 30 neurons both of these layers were given the activation function `ReLU`.
 The activation function `Sigmoid` is used on the output layer.
 - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
 
@@ -32,7 +32,7 @@ Change in Number of Layers
 
 ![layermodelacc](https://github.com/coxjack/Neural_Network_Charity_Analysis/blob/main/Additional%20Supporting%20Images/Layers.png)
 
-- A different activation function (`tanh`) was used also instead of 'ReLU' but none of these steps helped improve the model's performance.
+- A different activation function (`tanh`) was used also instead of `ReLU` but none of these steps helped improve the model's performance.
 
 ![tanhmodelacc](https://github.com/coxjack/Neural_Network_Charity_Analysis/blob/main/Additional%20Supporting%20Images/ActFunc.png)
 
